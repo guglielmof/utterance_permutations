@@ -1,0 +1,27 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2017 The MathWorks, Inc.
+                   R2017b (9.3.0.713579) 64-bit (glnxa64)
+                             September 14, 2017
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+[Warning: Variable names were modified to make them valid MATLAB identifiers.
+The original names are saved in the VariableDescriptions property.] 
+{Error using anovan>argcheck (line 1017)
+MODEL must not have an interaction between a nested factor
+and the factor that nests it.
+
+Error in anovan (line 164)
+[varnames,termlist,randomvar,sstype,continuous,vnested] = argcheck(ng,...
+
+Error in
+MD3>@(data,FACTORS)anovan(data,EXPERIMENT.analysis.getSelectedFactors(EXPERIMENT.analysis.MD3.labels,FACTORS),'model',EXPERIMENT.analysis.MD3.model,'VarNames',EXPERIMENT.analysis.MD3.labels,'nested',EXPERIMENT.analysis.MD3.nested,'sstype',EXPERIMENT.analysis.anova.sstype,'alpha',EXPERIMENT.analysis.alpha.threshold,'display','off')
+
+Error in computeANOVA (line 37)
+    [~, tbl, stats] = EXPERIMENT.analysis.(TAG).compute(FACTORS.nDCG_3,
+    FACTORS);
+} 
+>> 

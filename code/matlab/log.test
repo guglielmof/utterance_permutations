@@ -1,0 +1,61 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2017 The MathWorks, Inc.
+                   R2017b (9.3.0.713579) 64-bit (glnxa64)
+                             September 14, 2017
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+[Warning: Variable names were modified to make them valid MATLAB identifiers.
+The original names are saved in the VariableDescriptions property.] 
+  Columns 1 through 5
+
+    'Source'               'Sum Sq.'       'd.f.'     'Singular?'    'Mean Sq.'
+    'topic'                [  440.1665]    [   19]    [        0]    [ 23.1667]
+    'utterance(topic)'     [1.6305e+03]    [  153]    [        0]    [ 10.6570]
+    'perm(topic)'          [   55.8452]    [ 2000]    [        0]    [  0.0279]
+    'model'                [         0]    [    0]    [        1]    [       0]
+    'perm(topic)*model'    [   83.9452]    [ 4038]    [        0]    [  0.0208]
+    'Error'                [1.0999e+03]    [46206]    [        0]    [  0.0238]
+    'Total'                [3.3370e+03]    [52418]    [        0]            []
+
+  Columns 6 through 7
+
+    'F'           'Prob>F'    
+    [973.2101]    [         0]
+    [447.6888]    [         0]
+    [  1.1730]    [1.9592e-07]
+    [       0]    [       NaN]
+    [  0.8733]    [    1.0000]
+            []              []
+            []              []
+
+                    topic: 0.2606
+     utterance_l_topic_r_: 0.5659
+          perm_l_topic_r_: 0.0066
+                    model: 0
+    perm_l_topic_r__model: -0.0099
+
+\begin{table}[!ht]
+\centering
+\mycaption{Temp Caption}
+\label{tab:dtl-MD2}
+\resizebox{0.95\columnwidth}{!}{\begin{tabular}{lrrrrrr} 
+\hline 
+\multicolumn{1}{c}{\textbf{Source}} & \multicolumn{1}{c}{\textbf{SS}} & \multicolumn{1}{c}{\textbf{DF}} & \multicolumn{1}{c}{\textbf{MS}} & \multicolumn{1}{c}{\textbf{F}} & \multicolumn{1}{c}{\textbf{p-value}} & \multicolumn{1}{c}{$\hat{\omega}_{\langle fact\rangle}^2$} \\ 
+\hline 
+\textbf{topic}	& 440.166 & 19	& 23.167 & 973.210	& 0.0000 & 0.261 \\
+\textbf{utterance(topic)}	& 1630.514 & 153	& 10.657 & 447.689	& 0.0000 & 0.566 \\
+\textbf{perm(topic)}	& 55.845 & 2000	& 0.028 & 1.173	& 0.0000 & 0.007 \\
+\textbf{model}	& 0.000 & 0	& 0.000 & 0.000	& NaN & -0.000 \\
+\textbf{perm(topic)*model}	& 83.945 & 4038	& 0.021 & 0.873	& 1.0000 & -0.010 \\
+\textbf{Error} & 1099.905 & 46206 & 0.024 & & &  \\
+\hline
+\textbf{Total} & 3336.993 & 52418 & & & &  \\
+\hline
+\end{tabular} 
+}\end{table} 
+
+
